@@ -23,6 +23,33 @@ class Main {
 
         System.out.println("Os times classificados foram: ");
         System.out.println("- " + time1 + " -" + "- " + time2 + " -" + "- " + time3 + " -" + "- " + time4 + " -");
-        
+
+
+        System.out.println("Quantos gol o " + time1 + " fez?");
+        int golsTime1 = teclado.nextInt();
+
+        System.out.println("Quantos gol o " + time2 + " fez?");
+        int golsTime2 = teclado.nextInt();
+
+        System.out.println("Quantos gol o " + time3 + " fez?");
+        int golsTime3 = teclado.nextInt();
+
+        System.out.println("Quantos gol o " + time4 + " fez?");
+        int golsTime4 = teclado.nextInt();
+
+        System.out.println("Primeiro jogo de Quarta de final: " + time1 + " x " + time2);
+        if (golsTime1 >= golsTime2){
+            System.out.println("O time " + time1 + " sera o mandate do jogo pois fez um total de: " + golsTime1 + " gols");
+        }else {
+            System.out.println("O time " + time2 + " sera o mandate do jogo pois fez um total de: " + golsTime2 + " gols");
+
+        }
+
+        System.out.println("segundo jogo de Quarta de final: " + time3 + " x " + time4);
+        if (golsTime3 >= golsTime4){
+            System.out.println("O time " + time3 + " sera o mandate do jogo pois fez um total de: " + golsTime3 + " gols");
+        }else {
+            System.out.println("O time " + time4 + " sera o mandate do jogo pois fez um total de: " + golsTime4 + " gols");
+        }
     }
 }
