@@ -4,5 +4,6 @@ class Main {
         System.out.println("Iniciando projeto java");
         System.out.println("Iniciando projeto java");
         System.out.println("Iniciando projeto java");
+        System.out.println("Iniciando projeto java");
     }
 }
